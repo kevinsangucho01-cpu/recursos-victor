@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recursos — Víctor Gómez</title>
+<style>
+  :root {
+    --bg: #0B1220;
+    --card: #121A2E;
+    --card-border: #1F2A44;
+    --accent-card: #101B33;
+    --accent-border: #2A3B63;
+    --accent: #4C8DFF;
+    --heading: #F8FAFC;
+    --muted: #A9B4C7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  a { text-decoration: none; }
+  .wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .inner {
+    width: 100%;
+    max-width: 720px;
+    padding: 88px 24px 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  h1 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.15;
+    font-weight: 800;
+    color: var(--heading);
+  }
+  .lead {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--muted);
+    max-width: 560px;
+  }
+  .card {
+    border: 1px solid var(--card-border);
+    background: var(--card);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .card.highlight {
+    border-color: var(--accent-border);
+    background: var(--accent-card);
+  }
+  .card .label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  .card h2 {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: var(--heading);
+  }
+  .card .meta {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .card p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+  .cta {
+    margin-top: 10px;
+    align-self: flex-start;
+    background: var(--accent);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 22px;
+    border-radius: 999px;
+    transition: opacity 0.15s ease;
+  }
+  .cta:hover { opacity: 0.88; }
+  footer {
+    padding-top: 8px;
+    border-top: 1px solid var(--card-border);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  footer .handle {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--heading);
+  }
+  footer .sub {
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="inner">
+
+    <div>
+      <div class="eyebrow">Víctor Gómez × 4Geeks Academy</div>
+      <h1>Los recursos que te prometí</h1>
+      <p class="lead">Dos videos para pasar de no saber nada de IA a construir con ella, más una guía extra y cómo seguir si querés llevarlo a tu trabajo.</p>
+    </div>
+
+    <div class="card">
+      <div class="label">1 · Empezá por acá</div>
+      <h2>Claude de cero a experto: la guía completa 2026</h2>
+      <div class="meta">Por Ruba IA</div>
+      <p>Todo lo que necesitás saber sobre Claude y la IA, desde cero hasta nivel experto, en una sola sentada.</p>
+      <a class="cta" href="https://www.youtube.com/watch?v=tdjMFxaZo-E" target="_blank" rel="noopener">Ver video →</a>
+    </div>
+
+    <div class="card">
+      <div class="label">2 · El siguiente nivel</div>
+      <h2>Claude Code 2026: curso completo en español</h2>
+      <div class="meta">Por Benjamín Cordero</div>
+      <p>Acá la IA deja de ser un simple chatbot y empieza a trabajar por vos de forma autónoma. Aprendé a construir proyectos reales sin necesidad de saber programar.</p>
+      <a class="cta" href="https://www.youtube.com/watch?v=73eFWU-edO4" target="_blank" rel="noopener">Ver video →</a>
+    </div>
+
+    <div class="card">
+      <div class="label">3 · Bonus</div>
+      <h2>Los 45 comandos más útiles de Claude Code</h2>
+      <div class="meta">Guía descargable</div>
+      <p>La chuleta que armé con los comandos reales y documentados de Claude Code, organizados en 9 bloques: contexto, sesiones, automatización, permisos y más.</p>
+      <a class="cta" href="https://drive.google.com/file/d/10XGBQ8LCRwiKFhelDZD0ZKnsma-FdUR7/view?usp=sharing" target="_blank" rel="noopener">Descargar guía →</a>
+    </div>
+
+    <div class="card highlight">
+      <div class="label">4 · Si querés ir más lejos</div>
+      <h2>4Geeks Academy</h2>
+      <p>Si tenés un trabajo y sentís que te estás quedando atrás mientras otros suben de puesto o de sueldo por saber usar IA, en 4Geeks Academy te enseño a aplicarla en tu día a día: a usar agentes de IA para sacarte tareas repetitivas de encima y ser la persona que la empresa no quiere dejar ir. Hay alumnos que solo por esto subieron su sueldo entre 50% y 75%.</p>
+      <p>Escribime y vemos juntos cómo aplica a tu caso.</p>
+    </div>
+
+    <footer>
+      <div class="handle">@victormgomezp</div>
+      <div class="sub">Víctor Gómez · 4Geeks Academy</div>
+    </footer>
+
+  </div>
+</div>
+</body>
+</html>
